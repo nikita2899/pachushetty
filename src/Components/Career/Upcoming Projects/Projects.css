@@ -1,0 +1,77 @@
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.container-projects {
+  background-color: #f5f5dc;
+}
+
+.projects {
+  padding-block: 10px;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2em;
+}
+
+.main-projects {
+  margin-top: 170px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.main-projects button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: #e2ded0;
+  color: black;
+  text-decoration: none;
+}
+
+.projects b {
+  margin-left: 15px;
+}
+
+.projects a {
+  color: black;
+}
+
+.projects a:hover {
+  color: blue;
+}
+
+.projects-h2 {
+  padding: 20px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 40px;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1em;
+  background-color: #848884;
+  color: #f5f5dc;
+}
+
+.projects-h3 {
+  color: #6082b6;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 350;
+  line-height: 1em;
+}
+
+.projects p {
+  line-height: 2.5em;
+}
+
+.trekker-p {
+  text-align: left;
+}

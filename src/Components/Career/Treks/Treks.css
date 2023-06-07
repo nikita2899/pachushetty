@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.main_treks {
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+th,
+td {
+  text-align: center;
+  cursor: pointer;
+}

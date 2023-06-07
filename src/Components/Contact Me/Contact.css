@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*body {
+  min-height: 100%;
+}
+.section_padding {
+  padding: 4rem 4rem;
+}
+
+.footer {
+  background-color: #2d2d32;
+  top: 100%;
+  width: 100%;
+}
+
+.sb_footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sb_footer-links_div {
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  color: rgb(175, 175, 179);
+}
+
+a:hover {
+  color: white;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialmedia a {
+  padding: 5px;
+  width: 100%;
+}
+.socialmedia a:hover {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.sb_footer-links_div h4 {
+  font-size: 20px;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+}
+
+.sb_footer-links_div p {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.sb_footer-below {
+  display: inline;
+
+  margin-top: 0.2rem;
+}
+
+hr {
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.garmin {
+  margin-bottom: 35px;
+}
+
+.sb_footer-copyright p {
+  font-size: 12px;
+  padding-left: 40%;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+@media screen and(max-width: 550px) {
+  .sb_footer-below {
+    flex-direction: column;
+    justify-content: left;
+  }
+}

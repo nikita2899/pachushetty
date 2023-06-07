@@ -1,0 +1,31 @@
+.payment_h4 {
+  padding: 12%;
+  color: gray;
+}
+
+hr {
+  color: black !important;
+}
+
+.payment_h4 img {
+  margin-left: 35%;
+}
+
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.payment_h4 p {
+  padding-block: 10px;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
