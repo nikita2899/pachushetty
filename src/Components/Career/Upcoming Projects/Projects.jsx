@@ -5,6 +5,7 @@ import { Contact } from "../../Contact Me/Contact";
 import { useNavigate } from "react-router-dom";
 import photo from "./photo_05.jpg";
 import pinal from "./pinal parlekar.jpg";
+import nanda_ghunti from "./nanda_ghunti.jpg";
 import InstagramIcon from "@mui/icons-material/Instagram";
 function Projects() {
   const navigate = useNavigate();
@@ -15,20 +16,17 @@ function Projects() {
       </div>
       <div className="content-container">
         <div className="main-projects">
-          <button
-            type="button"
-            class="btn btn-dark"
-            onClick={() => {
-              navigate("/payment");
-            }}
-          >
-            Support Me!
-          </button>
           <div className="container container-projects">
             <div className="projects">
               <h2 className="projects-h2">Nanda Ghunti</h2>
 
               <div className="container">
+                <img
+                  className="center-image"
+                  src={nanda_ghunti}
+                  // class="figure-img img-fluid rounded"
+                  alt="nanda_ghunti"
+                />
                 <p>
                   <p>
                     <strong>Height: </strong>6309 mt (20,699 ft)
@@ -126,7 +124,17 @@ function Projects() {
                         </strong>{" "}
                         which he completed in just 19 days (2018). Currently, he
                         is working as a Trek leader and Cycling leader for the
-                        largest traveling company in India- Bikat Adventures.
+                        largest traveling company in India- Bikat Adventures. To
+                        know more about Pachu,{" "}
+                        <em
+                          className="em-about"
+                          onClick={() => {
+                            navigate("/about");
+                          }}
+                        >
+                          {" "}
+                          click here!
+                        </em>
                       </p>
                     </div>
                   </div>
@@ -156,7 +164,9 @@ function Projects() {
                         expedition Thailand-Malaysia-Singapore - 3 women 3
                         countries which commenced on 30th Jan 2020- 28th Feb
                         2020. This was the first time such a unique cycling
-                        expedition was carried out by an Indian woman.
+                        expedition was carried out by an Indian woman. She has
+                        done more than 12+ Himalayan treks and 5 expeditions
+                        till now.
                         <p>
                           Pinal Parlekar hails from Baroda,Gujarat and has
                           completed her Masters in Engineering from Gujarat
@@ -226,9 +236,18 @@ function Projects() {
                   Nanda Ghunti, and it's a costly process and expedition. I
                   would really appreciate it if you could help me in this
                   journey by sponsoring this expedition. Please find the{" "}
-                  <strong>Support Me</strong> button at the top-right corner.
+                  <strong>Support Me</strong> button at the right-hand side.
                   Thank you!
-                </p>
+                  <button
+                  type="button"
+                  class="btn btn-dark"
+                  onClick={() => {
+                    navigate("/payment");
+                  }}
+                >
+                  Support Me!
+                </button>
+                </p>          
               </div>
             </div>
           </div>

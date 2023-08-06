@@ -39,3 +39,14 @@
   left: 0;
   bottom: 0;
 }
+
+@media (max-width: 991px) {
+  .main_about {
+    margin-top: 400px;
+  }
+
+  .main_about img{
+    width: 100%;
+    height: auto;
+  }
+}

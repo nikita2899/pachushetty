@@ -23,7 +23,7 @@ function Header2() {
           About
         </p>
         <div className="subnav2">
-          <p id="career">Career</p>
+          <p id="career" style={{marginBottom: '15px'}}>Career</p>
           <div className="subnav2-content">
             <p
               id="cid2"

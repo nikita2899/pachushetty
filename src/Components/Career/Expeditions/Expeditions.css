@@ -54,3 +54,9 @@
 .expedition-p b {
   margin-left: 25px;
 }
+
+@media (max-width: 991px) {
+  .main-expedition{
+    margin-top: 400px;
+  }
+}

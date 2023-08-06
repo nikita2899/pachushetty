@@ -75,3 +75,24 @@
 .trekker-p {
   text-align: left;
 }
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.em-about{
+  color: #848884;
+}
+.em-about:hover{
+  cursor: pointer !important;
+}
+
+@media (max-width: 991px) {
+  .main-projects{
+    margin-top: 400px;
+  }
+}

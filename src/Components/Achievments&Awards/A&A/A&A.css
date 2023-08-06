@@ -55,3 +55,9 @@
   margin-right: auto;
   width: 40em;
 }
+
+@media (max-width: 991px) {
+  .main-a2a {
+    margin-top: 400px;
+  }
+}

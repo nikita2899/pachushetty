@@ -1,15 +1,15 @@
 .payment_h4 {
   padding: 12%;
   color: gray;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 hr {
   color: black !important;
 }
 
-.payment_h4 img {
-  margin-left: 35%;
-}
 
 .content-container {
   min-height: calc(100vh - 34px);
@@ -28,4 +28,10 @@ hr {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5em;
+}
+
+@media (max-width: 991px) {
+  .payment_h4{
+    margin-top: 400px;
+  }
 }

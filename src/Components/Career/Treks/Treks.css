@@ -25,3 +25,9 @@ td {
   text-align: center;
   cursor: pointer;
 }
+
+@media (max-width: 991px) {
+  .main_treks{
+    margin-top: 400px;
+  }
+}
